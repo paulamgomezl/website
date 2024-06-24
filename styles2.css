@@ -1,0 +1,64 @@
+body {
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 14px; /* Default font size */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Example background color */
+  }
+  
+  .page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title-section {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .title {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+  }
+  
+  .button-section {
+    margin-top: 30px;
+    text-align: right;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .button {
+    display: inline-block;
+    width: 230px;
+    height: 130px;
+    text-align: center;
+    line-height: 130px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 8px;
+  }
+  
+  .button:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Example hover background color */
+  }
+  
+  .button:first-child {
+    width: 280px; /* Width for "Objects" button */
+  }
+  
+  .button:last-child {
+    width: 405px; /* Width for "Writing" button */
+  }
+  

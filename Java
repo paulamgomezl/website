@@ -1,0 +1,3 @@
+const footer = document.querySelector('footer');
+const currentDate = new Date().getFullYear();
+footer.innerHTML += `<p>&copy; ${currentDate} My Website. All rights reserved.</p>`;
